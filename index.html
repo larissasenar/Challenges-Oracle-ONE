@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="icon" href="./images/Vector.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <title>Codificador e Decodificador de texto</title>
+</head>
+
+<body>
+    <header>
+        <section>
+            <div id="logo-alura">
+                <img id="logoAlura" class="logoAlura" src="./images/Vector.svg">
+                <p>Oracle ONE | Alura Challenge | Codificador e decodificador de texto 🔒</p>
+            </div>
+        </section>
+    </header>
+    <main>
+        <div class="encrypt">
+            <textarea id="input-text" class="input-text" placeholder="Digite seu texto aqui..."></textarea>
+            <div class="info">
+                <div class="informacao">
+                    <p>ATENÇÃO! Apenas letras minúsculas e sem acento.</p>
+                </div>
+            </div>
+            <div class="buttons">
+                <button id="btnEncryptar" class="btn-1">Criptografar</button>
+                <button id="btnDecryptar" class="btn-2">Descriptografar</button>
+            </div>
+        </div>
+
+        <div class=" decrypt">
+            <div class="container">
+                <img id="lupa" class="lupa" src="./images/lupa.svg">
+                <div id="inserirImg"></div>
+                <p id="msg">🔑 Digite um texto que você deseja criptografar ou descriptografar 🔓</p>
+                <textarea id="inputTextSaida" readonly></textarea>
+                <div id="copy"></div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Desenvolvido por Larissa Sena <a href="https://github.com/larissasenar"><i class="bi bi-github"></i></a></p>
+    </footer>
+    <script src="./JavaScript/script.js"></script>
+</body>
+
+</html>
